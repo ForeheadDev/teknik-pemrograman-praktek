@@ -5,6 +5,7 @@ abstract class Sortable{
 	 public static void shell_sort(Sortable[] a)
 	 {
 		//Shell sort body
+		//From Geek for Geeks
 		int len = a.length;
 		
 		for (int gap = len/2; gap > 0; gap /= 2)
